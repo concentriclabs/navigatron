@@ -23,6 +23,7 @@
     "@angular/service-worker": "~11.0.0",
     "angular-feather": "^6.0.10",
     "express": "^4.17.1",
+    "path": "^0.12.7",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
