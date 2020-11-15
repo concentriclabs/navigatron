@@ -4,6 +4,12 @@ Este projeto consistem em desenvolver uma solução para os problemas relacionad
 
 A Drakkar Team através do Navigatron proporcionará mais agilidade nas tomadas de decisões que são cruciais para operacionalização dos portos, reduzindo custos e ampliando a qualidade dos serviços.
 
+# Link de Deploy
+
+Esta aplicação esta sendo hospedada no Heroku para deploy.
+
+[http:](https://navigatron.herokuapp.com/)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
