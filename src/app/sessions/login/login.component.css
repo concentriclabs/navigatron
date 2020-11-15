@@ -1,0 +1,110 @@
+#container {
+  height: 100vh;
+  display: flex;
+
+  background-blend-mode: darken;
+  background: url('../../../assets/bg-port.jpeg') no-repeat,
+    linear-gradient(180deg, #295E7C 0%, rgba(255, 255, 255, 0) 100%);;
+  background-size: cover;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+}
+
+#content form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 340px;
+  margin: 80px auto;
+  text-align: center;
+}
+
+#content form img.logo {
+  filter: drop-shadow(0px 4px 10px #295E7C);
+}
+
+#content form h1 {
+  color: #DFE6EA;
+  margin-bottom: 32px;
+}
+
+#content form a {
+  color: aliceblue;
+  display: block;
+  text-decoration: none;
+  margin-top: 24px;
+
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#content form a:hover {
+  color: #7cb6d4;
+}
+
+#content form #input-container {
+  width: 100%;
+  background: #FBFCFD;
+  border: 2px solid #295E7C;
+  border-radius: 10px;
+  padding: 16px;
+
+  color: #295E7C;
+
+  display: flex;
+  align-items: center;
+  transition: border 0.2s;
+}
+
+#content form #input-container input {
+  color: #295E7C;
+  flex: 1;
+  background: transparent;
+  border: 0;
+}
+
+#content form #input-container:hover  {
+  border: 2px solid #1f4155;
+}
+
+#content form button {
+  width: 90%;
+  padding: 16px;
+  background: #4FACB9;
+  border-radius: 10px;
+  border: none;
+
+  box-shadow: #1f4155 2px 3px 4px;
+
+  color: #DFE6EA;
+  font-weight: 500;
+  font-size: 18px;
+  transition: background-color 0.2s;
+}
+
+#content form button:hover {
+  background: #3f8892;
+}
+
+#content > a {
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: aliceblue;
+  transition: color 0.2s;
+}
+
+#content > a:hover {
+  color: #7cb6d4;
+}
+
