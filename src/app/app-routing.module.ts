@@ -3,6 +3,10 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
   {
+    path: '',
+    redirectTo: 'login'
+  },
+  {
     path: 'login',
     loadChildren: () => import('./sessions/sessions-routing.module').then(m => m.SessionsRoutingModule),
   }
