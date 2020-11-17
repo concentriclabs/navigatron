@@ -1,24 +1,32 @@
 <div id="container">
 
   <div id="content">
-    <form>
+    <form [formGroup]="formGroup" (ngSubmit)="handleSubmit()" >
       <img src="/assets/logo.png" alt="" class="logo">
 
       <h1>Faça seu login</h1>
 
       <div id="input-container" class="mb-16">
-        <input type="email" placeholder="E-mail">
+        <i-feather name="mail"></i-feather>
+        <input type="email" placeholder="E-mail" formControlName="email">
       </div>
 
       <div id="input-container">
-        <input type="password" placeholder="Senha">
+        <i-feather name="lock"></i-feather>
+        <input type="password" placeholder="Senha" formControlName="password">
       </div>
 
-      <button type="submit" class="mt-16">Entrar</button>
+      <button type="submit" class="mt-16">
+        <i-feather name="log-in"></i-feather>
+        Entrar
+      </button>
 
-      <a href="forgot-password">Esqueci minha senha</a>
+      <a routerLink="forgot-password">Esqueci minha senha</a>
     </form>
 
-    <a href="sign-up">Criar uma conta</a>
+    <a routerLink="/create-account">
+      <i-feather name="arrow-right"></i-feather>
+      Criar uma conta
+    </a>
   </div>
 </div>

@@ -1,0 +1,112 @@
+#container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+#background {
+  flex: 1;
+
+  background-image: url('../../../assets/bg_sign_up.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  max-width: 700px;
+
+  background: linear-gradient(180deg, #74A9C8 0%, #295E7C 100%);
+}
+
+#content #content-wrapper {
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+#content #content-wrapper form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 340px;
+  margin: 80px auto;
+}
+
+#content #content-wrapper form h1 {
+  margin: 32px 0;
+
+  font-size: 32px;
+  color: #e5e5e5;
+}
+
+#content #content-wrapper form #input-group {
+  width: 100%;
+  background: #FBFCFD;
+  border: 2px solid #295E7C;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 16px;
+  color: #295E7C;
+
+  display: flex;
+  align-items: center;
+
+  transition: boder 0.2s;
+}
+
+#content #content-wrapper form #input-group:hover{
+  border: 2px solid #1f4155;
+}
+
+#content #content-wrapper form #input-group i-feather {
+  margin-right: 16px;
+}
+
+#content #content-wrapper form #input-group input {
+  flex: 1;
+  color: #295E7C;
+  background: transparent;
+  border: 0;
+}
+
+#content #content-wrapper form button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 247px;
+  padding: 16px;
+  background: #4FACB9;
+  border: 0;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-weight: 500;
+}
+
+#content #content-wrapper > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #e5e5e5;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+#content #content-wrapper > a:hover {
+  color: #b4bfca;
+}
+
+#content #content-wrapper > a i-feather {
+  margin-right: 16px;
+}
