@@ -21,6 +21,7 @@
   width: 100%;
   max-width: 700px;
 
+  background-attachment: fixed;
   background: linear-gradient(180deg, #74A9C8 0%, #295E7C 100%);
 }
 
