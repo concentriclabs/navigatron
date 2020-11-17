@@ -8,7 +8,7 @@ A Drakkar Team através do Navigatron proporcionará mais agilidade nas tomadas 
 
 Esta aplicação esta sendo hospedada no Heroku para deploy.
 
-[http:](https://navigatron.herokuapp.com/)
+[http:https://navigatron.herokuapp.com/](https://navigatron.herokuapp.com/)
 
 ## Development server
 
