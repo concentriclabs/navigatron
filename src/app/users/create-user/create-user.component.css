@@ -38,7 +38,7 @@
   justify-content: center;
 
   width: 340px;
-  margin: 80px auto;
+  margin: 40px auto;
 }
 
 #content #content-wrapper form h1 {
@@ -86,10 +86,24 @@
   width: 247px;
   padding: 16px;
   background: #4FACB9;
-  border: 0;
+  border: none;
   border-radius: 10px;
-  color: #FFFFFF;
+
+  box-shadow: #1f4155 2px 3px 4px;
+
+  color: #DFE6EA;
   font-weight: 500;
+  font-size: 18px;
+
+  transition: background-color 0.2s;
+}
+
+#content #content-wrapper form button i-feather {
+  margin-right: 16px;
+}
+
+#content #content-wrapper form button:hover {
+  background: #3f8892;
 }
 
 #content #content-wrapper > a {
