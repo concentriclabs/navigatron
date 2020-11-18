@@ -1,3 +1,4 @@
+import { HttpErrorResponse } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
@@ -34,7 +35,16 @@ export class LoginComponent implements OnInit {
           localStorage.setItem('@Navigatron:user', JSON.stringify(result.user));
           localStorage.setItem('@Navigatron:token', result.token);
 
+          alert('Login successfully!');
+
           this.router.navigate(['/dashboard']);
+        }
+      }, error => {
+        if (error instanceof Error) {
+          alert(error.message);
+        }
+        if (error instanceof HttpErrorResponse) {
+          alert(error.error.message);
         }
       });
     }
