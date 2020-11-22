@@ -1,6 +1,8 @@
 # Navigatron
 
-Este projeto consistem em desenvolver uma solução para os problemas relacionados a disponibilidades de berços nos portos brasileiros, envolvendo todo o processo de Administração portuária da chegada de um navio a sua saída para seu destino posterior.
+Este ClientUI é o videogame (kk) === "- mapa prímario para servir modelos em operações de alto risco, validada e construída pela equipe de front do Drakkar do Brasil, referência no universo Gamer, no Brasil e o mundo "- . 
+Os modelos === (os cartuchos do jogo).
+Podem ser desenvolvidos a gosto, para simular qualquer mundo no NAVIGATRON. Melhor jogo de simulação de portas do mundo.
 
 A Drakkar Team através do Navigatron proporcionará mais agilidade nas tomadas de decisões que são cruciais para operacionalização dos portos, reduzindo custos e ampliando a qualidade dos serviços.
 
